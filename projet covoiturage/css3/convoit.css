@@ -1,0 +1,191 @@
+.conducteur{
+	width: 40%;
+	height: 50;
+	margin:5%;
+	background-color:white;
+}
+.imageconvoi{
+	width: 70%;
+	height: 60%;
+	border-radius:50px;
+	margin:10%;
+	border:10px solid #F43D3D;
+	
+}
+.servicebgrdh1{
+	font-size:60px;
+	text-align:center;
+	color:white;
+}
+.par3agr{
+	height:30%;
+	width:30%;
+	margin:40px;
+	font-size:15px;
+	line-height:2;
+	color:#F43D3D;
+}
+.containerh2
+{
+	text-align:center;
+	color:#F43D3D;
+	background-color:black;
+	height:20%;
+	border-radius:30%;
+	padding-top:10%;
+}
+.containerh2:hover
+{
+	background-color:white;
+	font-size:25px;
+	color:blck;
+}
+.firstsec{
+	height:50%;
+	width:100%;
+	background-color:black;
+	background-position:center;
+	display:flex;
+	
+}
+.imgclass2{
+	height:20%;
+	width:20%;
+	opacity:2;
+	float:left;
+	margin-top:2.2%;
+}
+.tittle{
+	color:#F43D3D;
+	text-align:center;
+	font-size:30px;
+	padding:25px;
+}
+.display{
+	display:flex;
+	background-color:black;
+	margin:5%;
+}
+.section1{
+	background-image:url('../images/section2bgrd.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.jfif{
+	margin-left:42.5%;
+	margin-top:5%;
+	border-radius:100%;
+}
+.section2{
+	background-color:black;
+	display:flex;
+}
+.section2 h1{
+	font-size:40px;
+	color:#F43D3D;
+	text-align:center;
+	margin-top:5%;
+}
+.car{
+	border:5px solid #F43D3D ;
+}
+.section3{
+	height:20%;
+	width:100%;
+	background-color:lightgrey;
+	margin-top:1%;
+	
+}
+.qst{
+	font-size:23px;
+	text-align:center;
+	padding:25px;
+}
+.posez{
+	font-size:25px;
+	color:#F43D3D;
+	text-align:center;
+}
+.posez:hover{
+	font-size:30px;
+}
+.parg{
+	font-size:15px;
+	text-align:center;
+	margin:15px;
+	
+}
+.imagecrcl{
+
+	width: 100px;
+	height: 100px;
+	border-radius:100%;
+}
+.last{
+	background-color:silver;
+	width:100%;
+	height:10%;
+}
+
+
+@media screen and (max-width:700px){
+	.par3agr{
+		font-size:10px;
+		height:10%;
+		width:20%;
+		margin:25px;
+	}
+	.middle{
+		display:none;
+		cursor: pointer;
+	}
+	.section3{
+		background-color:#F43D3D;
+		height:50%;
+	}
+	.imageconvoi{
+		width: 90%;
+		height: 70%;
+		border-radius:30px;
+		margin:5px;
+		border:5px solid #F43D3D;
+	}
+	.containerh2{
+		font-size:14px;
+		height:20%;
+		border-radius:30%;
+		padding-top:4%;
+	}
+	.containerh2:hover{
+		background-color:white;
+		font-size:16px;
+		color:black;
+	}
+	.jfif{	
+		margin-left:35%;
+		margin-top:5%;
+		border-radius:100%;
+		border:2px red;
+	}
+	.tittle{
+		font-size:20px;
+	}
+	
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
